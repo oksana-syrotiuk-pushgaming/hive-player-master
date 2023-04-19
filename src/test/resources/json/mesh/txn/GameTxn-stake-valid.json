@@ -1,0 +1,14 @@
+{
+	"rgsTxnId": "rgs-txn-1",
+	"rgsGameId": "rgs-game-1",
+	"rgsPlayId": "rgs-play-1",
+	"rgsRoundId": "rgs-round-1",
+	"playerId": "player-1",
+	"playComplete": false,
+	"roundComplete": false,
+	"currency": "GBP",
+	"actions": [
+		{"rgsActionId": "1", "type": "STAKE", "amount": 10.00}
+	],
+	"txnDeadline": "1970-01-01T00:00:30.000Z"
+}

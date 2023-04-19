@@ -1,0 +1,5 @@
+{
+	"type": "Bearer",
+	"token": "abcdefghijkl",
+	"expires": 1800
+}

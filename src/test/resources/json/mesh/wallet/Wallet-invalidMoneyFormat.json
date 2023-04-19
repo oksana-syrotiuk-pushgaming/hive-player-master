@@ -1,0 +1,8 @@
+{
+	"type": "ACCOUNT",
+	"currency": "GBP",
+	"funds":[
+		{"type":"CASH", "balance": 100.00},
+		{"type":"BONUS", "balance": 0.000}
+	]
+}

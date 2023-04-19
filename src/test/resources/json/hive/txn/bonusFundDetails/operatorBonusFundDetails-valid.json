@@ -1,0 +1,9 @@
+{
+  "type": "OPERATOR",
+  "bonusId": "bonus-1",
+  "awardId": "award-1",
+  "remainingSpins": 5,
+  "extraInfo": {
+    "info": "info"
+  }
+}

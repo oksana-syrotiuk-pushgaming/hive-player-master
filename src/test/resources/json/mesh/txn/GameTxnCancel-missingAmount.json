@@ -1,0 +1,7 @@
+{
+	"playerId": "1",
+	"rgsTxnCancelId": "cancel-1",
+	"playComplete": true,
+	"reason": "VOID_GAME",
+	"currency":"GBP"
+}

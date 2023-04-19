@@ -1,0 +1,20 @@
+{
+  "balance": 110.00,
+  "funds": [
+    {
+      "type": "FREEROUNDS",
+      "awarded": 10,
+      "awardId": "award1",
+      "bonusId": "bonus1",
+      "cumulativeWin": 0.00,
+      "fundId": 1,
+      "remaining": 10,
+      "betAmount": 1.00
+    }
+  ],
+  "message": {
+    "content": "content",
+    "type": "type",
+    "format": "format"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "balance": 110.00,
+  "funds": [
+    {
+      "type": "OPERATOR_FREEROUNDS",
+      "awardId": "award1",
+      "bonusId": "bonus1",
+      "extraInfo": {
+        "extraInfoKey1": "extraInfoValue1"
+      }
+    }
+  ],
+  "message": {
+    "content": "content",
+    "type": "type",
+    "format": "format"
+  }
+}

@@ -1,0 +1,8 @@
+{
+	"type": "NOT_VALID_WALLET_TYPE",
+	"currency": "GBP",
+	"funds":[
+		{"type":"CASH", "balance": 100.00},
+		{"type":"BONUS", "balance": 10.00}
+	]
+}

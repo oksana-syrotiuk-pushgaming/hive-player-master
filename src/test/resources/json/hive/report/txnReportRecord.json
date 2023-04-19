@@ -1,0 +1,11 @@
+{
+  "country": "GB",
+  "gameCode": "testGame",
+  "ccyCode": "GBP",
+  "numPlays": 500,
+  "uniquePlayers": 200,
+  "totalStake": 2000.00,
+  "totalWin": 1000.00,
+  "bonusCost": 345.00,
+  "numFreeRounds": 234
+}

@@ -1,0 +1,23 @@
+{
+  "type": "txnRequest",
+  "timestamp": 1548359248234,
+  "txnId": "1012-126906684e494fe4bde14924f9b001d4",
+  "gameCode": "humptydumpty",
+  "playId": "1012-8870",
+  "playComplete": true,
+  "playCompleteIfCancelled": true,
+  "roundId": "1012-8870",
+  "roundComplete": true,
+  "roundCompleteIfCancelled": true,
+  "playerId": "25bba8e32ce052de4ce5282a7fba3f908bac3d08",
+  "guest": false,
+  "igpCode": "cirsa",
+  "mode": "real",
+  "ccyCode": "fun",
+  "txnType": "WIN",
+  "amount": 3250,
+  "sessionId": "167e84d7-b08a-48c5-b72b-84a1f9d1ff3e",
+  "extraInfo": {
+    "freespinsTriggered": true
+  }
+}

@@ -1,0 +1,45 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  labels:
+    name: hive-player-performance-test
+    version: 1.0.0
+    managed-by: kustomize
+    git-repository: hive-player
+    git-repository-owner: gsiio
+    git-repository-host: github.com
+  name: hive-player-performance-test
+spec:
+  backoffLimit: 6
+  activeDeadlineSeconds: 300000000
+  template:
+    metadata:
+      labels:
+        name: hive-player-performance-test
+        version: 1.0.0
+        managed-by: kustomize
+        git-repository: hive-player
+        git-repository-owner: gsiio
+        git-repository-host: github.com
+      name: hive-player-performance-test
+    spec:
+      restartPolicy: OnFailure
+      containers:
+        - name: job
+          image: gsiio/hive-player-server-perf-test:0.0.6
+          env:
+            - name: "HIVE_PLAYER_HOST"
+              value:  "hive-player-service-v1"
+            - name: "HIVE_PLAYER_PORT"
+              value: "9001"
+            - name: "HIVE_PLAYER_API_PATH"
+              value: "/hive/s2s/platform/player/v1"
+            - name: "USERS_NUMBER"
+              value: "3000"
+            - name: "PLAYS_PER_USER"
+              value: "20"
+            - name: "RAMPUP_SEC"
+              value: "60"
+          imagePullPolicy: Always
+      imagePullSecrets:
+        - name: gsidockerhub

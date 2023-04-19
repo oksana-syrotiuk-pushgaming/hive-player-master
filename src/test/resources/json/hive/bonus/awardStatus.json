@@ -1,0 +1,15 @@
+{
+  "type": "freeRoundsBonus",
+  "bonusId": "bonus1",
+  "expiryDate": "2020-05-19T15:19:40.671182Z",
+  "gameIds": [
+    "testGame1"
+  ],
+  "status": "active",
+  "freeRoundsAwarded": 10,
+  "freeRoundsRemaining": 89,
+  "totalWin": 10,
+  "betAmount": 1,
+  "ccyCode": "EUR",
+  "playerId": "player1"
+}

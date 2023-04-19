@@ -1,0 +1,15 @@
+{
+	"playerId": "1",
+	"rgsTxnCancelId": "cancel-1",
+	"playComplete": true,
+	"roundComplete": true,
+	"reason": "VOID_GAME",
+	"currency": "GBP",
+	"amount":20.00,
+	"rgsPlayId": "playId1",
+	"rgsRoundId": "round1",
+	"rgsGameId": "1011",
+	"extraInfo": {
+		"info" : "someInfo"
+	}
+}

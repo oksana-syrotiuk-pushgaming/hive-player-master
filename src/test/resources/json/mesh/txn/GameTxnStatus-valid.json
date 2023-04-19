@@ -1,0 +1,19 @@
+{
+	"igpTxnId": "txn-1",
+	"igpPlayId": "play-1",
+	"status": "OK",
+	"txnTs": "2020-01-01 09:00:00",
+	"wallet": {
+		"type": "ACCOUNT",
+		"currency": "GBP",
+		"funds":[
+			{"type":"CASH", "balance": 100.00},
+			{"type":"BONUS", "balance": 10.00}
+		]
+	},
+	"token": {
+		"type": "Bearer",
+		"token": "abcdefghijkl",
+		"expires": 1800
+	}
+}
